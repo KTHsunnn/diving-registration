@@ -12,7 +12,7 @@ export const metadata = {
   description: '跳水課程報名、跳水課程，學跳水。',
   verification: {
     // 當您在 Google Search Console 取得驗證碼後，請替換下方字串
-    '<meta name="google-site-verification" content="eyng6DtwIU8kn_QX1tHPgqczmuWRXbGZlm5eksvc11A" />',
+    google: 'eyng6DtwIU8kn_QX1tHPgqczmuWRXbGZlm5eksvc11A',
   },
 };
 
