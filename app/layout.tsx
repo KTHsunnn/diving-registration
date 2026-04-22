@@ -1,10 +1,20 @@
 import Link from 'next/link';
 import { Noto_Sans_TC } from 'next/font/google';
-import NavbarDropdown from '@/components/NavbarDropdown'; // 引入下拉選單
-import Footer from '@/components/Footer'; // 引入頁尾
+import NavbarDropdown from '@/components/NavbarDropdown';
+import Footer from '@/components/Footer';
 import './globals.css';
 
 const noto = Noto_Sans_TC({ subsets: ['latin'], weight: ['400', '700', '900'] });
+
+// --- SEO 與 Google 驗證區 ---
+export const metadata = {
+  title: 'JORDIVING | 專業跳水教學',
+  description: '跳水課程報名、跳水課程，學跳水。',
+  verification: {
+    // 當您在 Google Search Console 取得驗證碼後，請替換下方字串
+    google: '<meta name="google-site-verification" content="eyng6DtwIU8kn_QX1tHPgqczmuWRXbGZlm5eksvc11A" />',
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -20,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/about" className="hover:text-blue-600 transition">關於我們</Link>
               <Link href="/coaches" className="hover:text-blue-600 transition">教練簡介</Link>
 
-              {/* 這裡替換為下拉選單 */}
+              {/* 下拉選單 */}
               <NavbarDropdown />
 
               <Link href="/register" className="bg-orange-500 text-white px-5 py-2 rounded-full hover:bg-orange-600 transition">立即報名</Link>
