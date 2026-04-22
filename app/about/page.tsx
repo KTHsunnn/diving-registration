@@ -17,7 +17,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="h-64 bg-gray-200 rounded-3xl flex items-center justify-center text-gray-500">
-                    (建議放置一張教練教學中的專業照片)
+
                 </div>
             </section>
 
