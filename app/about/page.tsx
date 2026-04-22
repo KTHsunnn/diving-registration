@@ -45,6 +45,6 @@ export default function About() {
                     我們不只是在教跳水，我們是在培養對生活的熱情。透過每次入水的挑戰，讓每一位來到 JorDiving 的學員，都能看見更勇敢的自己。
                 </p>
             </section>
-        </main>
+        </main >
     );
 }
