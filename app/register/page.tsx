@@ -112,13 +112,13 @@ export default function RegistrationForm() {
       </div>
 
       {/* 費用與匯款 */}
-      <div className="bg-blue-50 p-6 rounded-xl shadow-sm mb-6 border border-blue-100">
+      { /*<div className="bg-blue-50 p-6 rounded-xl shadow-sm mb-6 border border-blue-100">
         <h2 className="text-xl font-bold mb-3 text-blue-800">費用與繳費</h2>
         <p className="text-lg font-bold mb-2">費用：1000元/人/100分</p>
         <p className="text-sm mb-2">👉🏻 匯款：玉山銀行 (808) 板新分行 0484-968-027866</p>
         <p className="text-sm text-red-600 mb-2">⚠️ 匯款完成才算報名成功。一週前通知退費500元，當日不退費。</p>
         <p className="text-xs text-gray-500">🛟 跳水具風險，請注意自身安危及自行辦理保險</p>
-      </div>
+      </div>*/}
 
       {/* 報名表單 */}
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-600">
